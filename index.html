@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IT Buddy | ร้านอุปกรณ์ไอที</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <div class="nav-left">
+
+        <a href="#" class="logo">
+            IT Buddy
+        </a>
+
+        <div class="nav-menu">
+
+            <a href="#home">หน้าแรก</a>
+            <a href="#products">สินค้า</a>
+            <a href="#categories">หมวดหมู่</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="nav-right">
+
+        <button class="cart-button" onclick="openCart()">
+
+            <span class="cart-icon">🛒</span>
+
+            <span id="cart-count">0</span>
+
+        </button>
+
+    </div>
+
+</nav>
+
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="home">
+
+
+    <!-- BANNER -->
+
+    <div class="banner">
+
+        <!-- ใส่รูป Banner ที่นี่ -->
+        <img src="images/poster.jpg" alt="IT Buddy Banner">
+
+        <div class="banner-placeholder">
+        </div>
+
+    </div>
+
+
+    <!-- HERO -->
+
+    <div class="hero">
+
+        <div class="hero-text">
+
+            <h1>
+                อุปกรณ์ไอทีสำหรับคุณ
+            </h1>
+
+            <p>
+                เลือกซื้ออุปกรณ์ไอทีที่เหมาะกับการทำงาน
+                การเรียน และการเล่นเกม
+            </p>
+
+            <button onclick="scrollToProducts()">
+                เลือกซื้อสินค้า
+            </button>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section id="categories" class="categories-section">
+
+    <div class="section-title">
+
+        <h2>
+            หมวดหมู่สินค้า
+        </h2>
+
+        <p>
+            เลือกหมวดหมู่ที่คุณสนใจ
+        </p>
+
+    </div>
+
+
+    <div id="category-buttons" class="category-buttons">
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRODUCTS ================= -->
+
+<section id="products" class="products-section">
+
+    <div class="section-title">
+
+        <h2>
+            สินค้าทั้งหมด
+        </h2>
+
+        <p>
+            เลือกอุปกรณ์ไอทีที่เหมาะกับคุณ
+        </p>
+
+    </div>
+
+
+    <!-- SEARCH -->
+
+    <div class="search-container">
+
+        <input
+            type="text"
+            id="search-input"
+            placeholder="ค้นหาชื่อสินค้า หรือแบรนด์..."
+            oninput="searchProducts()"
+        >
+
+    </div>
+
+
+    <!-- PRODUCT GRID -->
+
+    <div id="product-grid" class="product-grid">
+
+    </div>
+
+</section>
+
+
+<!-- ================= CART ================= -->
+
+<div id="cart-modal" class="cart-modal">
+
+    <div class="cart-box">
+
+        <div class="cart-header">
+
+            <h2>
+                🛒 ตะกร้าสินค้า
+            </h2>
+
+            <button onclick="closeCart()">
+                ✕
+            </button>
+
+        </div>
+
+
+        <div id="cart-items">
+
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+
+                <span>
+                    ยอดรวม
+                </span>
+
+                <strong id="cart-total">
+                    ฿0
+                </strong>
+
+            </div>
+
+
+            <button class="checkout-button" onclick="checkout()">
+                ดำเนินการสั่งซื้อ
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h3>
+        IT Buddy
+    </h3>
+
+    <p>
+        ร้านค้าอุปกรณ์ไอทีสำหรับการเรียน การทำงาน และ Gaming
+    </p>
+
+    <p>
+        © 2026 IT Buddy
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+<script src="chat-widget.js"></script>
+
+</body>
+
+</html>
