@@ -1435,10 +1435,10 @@ function createCategoryButtons() {
 
             } else {
 
-                const filtered =
-                    products.filter(product =>
-                        product.category === category
-                    );
+                const filtered = products.filter(product =>
+    product.category.trim().toLowerCase() ===
+    category.trim().toLowerCase()
+);
 
                 displayProducts(filtered);
 
