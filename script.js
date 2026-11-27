@@ -601,151 +601,151 @@ const products = [
 
 
     /* =================================================
-       Ram
+       ram
     ================================================= */
 
     {
         id: 49,
-        category: "Ram",
+        category: "ram",
         brand: "Kingston",
         name: "Kingston FURY Beast DDR4 16GB",
         price: 1490,
         spec: "16GB (2x8GB); DDR4; 3200MT/s; DIMM",
         use: "อัปเกรดคอมตั้งโต๊ะ",
         stock: 4,
-        image: "images/Ram/Kingston FURY Beast DDR4 16GB.jpg"
+        image: "images/ram/Kingston FURY Beast DDR4 16GB.jpg"
     },
 
     {
         id: 50,
-        category: "Ram",
+        category: "ram",
         brand: "Kingston",
         name: "Kingston FURY Beast DDR5 32GB",
         price: 3290,
         spec: "32GB (2x16GB); DDR5; 5600MT/s; DIMM",
         use: "คอมตั้งโต๊ะที่รองรับ DDR5",
         stock: 3,
-        image: "images/Ram/Kingston FURY Beast DDR5 32GB.jpg"
+        image: "images/ram/Kingston FURY Beast DDR5 32GB.jpg"
     },
 
     {
         id: 51,
-        category: "Ram",
+        category: "ram",
         brand: "Kingston",
         name: "Kingston FURY Impact DDR4 16GB",
         price: 1690,
         spec: "16GB; DDR4; 3200MT/s; SO-DIMM",
         use: "อัปเกรดโน้ตบุ๊กที่รองรับ",
         stock: 4,
-        image: "images/Ram/Kingston FURY Impact DDR4 16GB.jpg"
+        image: "images/ram/Kingston FURY Impact DDR4 16GB.jpg"
     },
 
     {
         id: 52,
-        category: "Ram",
+        category: "ram",
         brand: "Corsair",
         name: "Corsair Vengeance DDR5 32GB",
         price: 3490,
         spec: "32GB (2x16GB); DDR5; 5600MT/s; DIMM",
         use: "คอมรุ่นที่รองรับ DDR5",
         stock: 3,
-        image: "images/Ram/Corsair Vengeance DDR5 32GB.jpg"
+        image: "images/ram/Corsair Vengeance DDR5 32GB.jpg"
     },
 
     {
         id: 53,
-        category: "Ram",
+        category: "ram",
         brand: "Corsair",
         name: "Corsair Vengeance LPX DDR4 16GB",
         price: 1590,
         spec: "16GB (2x8GB); DDR4; 3200MT/s; DIMM",
         use: "คอมตั้งโต๊ะ",
         stock: 4,
-        image: "images/Ram/Corsair Vengeance LPX DDR4 16GB.jpg"
+        image: "images/ram/Corsair Vengeance LPX DDR4 16GB.jpg"
     },
 
     {
         id: 54,
-        category: "Ram",
+        category: "ram",
         brand: "Corsair",
         name: "Corsair Vengeance RGB DDR5 32GB",
         price: 3990,
         spec: "32GB (2x16GB); DDR5; RGB; DIMM",
         use: "Gaming / คอมตั้งโต๊ะ",
         stock: 3,
-        image: "images/Ram/Corsair Vengeance RGB DDR5 32GB.jpg"
+        image: "images/ram/Corsair Vengeance RGB DDR5 32GB.jpg"
     },
 
     {
         id: 55,
-        category: "Ram",
+        category: "ram",
         brand: "G.Skill",
         name: "G.Skill Ripjaws V DDR4 16GB",
         price: 1490,
         spec: "16GB (2x8GB); DDR4; 3200MT/s; DIMM",
         use: "คอมตั้งโต๊ะ",
         stock: 4,
-        image: "images/Ram/G.Skill Ripjaws V DDR4 16GB.jpg"
+        image: "images/ram/G.Skill Ripjaws V DDR4 16GB.jpg"
     },
 
     {
         id: 56,
-        category: "Ram",
+        category: "ram",
         brand: "G.Skill",
         name: "G.Skill Trident Z5 DDR5 32GB",
         price: 4290,
         spec: "32GB (2x16GB); DDR5; DIMM",
         use: "Gaming / งานประมวลผล",
         stock: 3,
-        image: "images/Ram/G.Skill Trident Z5 DDR5 32GB.jpg"
+        image: "images/ram/G.Skill Trident Z5 DDR5 32GB.jpg"
     },
 
     {
         id: 57,
-        category: "Ram",
+        category: "ram",
         brand: "G.Skill",
         name: "G.Skill Aegis DDR4 16GB",
         price: 1390,
         spec: "16GB (2x8GB); DDR4; DIMM",
         use: "อัปเกรดคอมทั่วไป",
         stock: 4,
-        image: "images/Ram/G.Skill Aegis DDR4 16GB.jpg"
+        image: "images/ram/G.Skill Aegis DDR4 16GB.jpg"
     },
 
     {
         id: 58,
-        category: "Ram",
+        category: "ram",
         brand: "Crucial",
         name: "Crucial Pro DDR4 16GB",
         price: 1390,
         spec: "16GB; DDR4; 3200MT/s; DIMM",
         use: "คอมตั้งโต๊ะ",
         stock: 3,
-        image: "images/Ram/Crucial Pro DDR4 16GB.jpg"
+        image: "images/ram/Crucial Pro DDR4 16GB.jpg"
     },
 
     {
         id: 59,
-        category: "Ram",
+        category: "ram",
         brand: "Crucial",
         name: "Crucial Pro DDR5 32GB",
         price: 2990,
         spec: "32GB; DDR5; 5600MT/s; DIMM",
         use: "คอมที่รองรับ DDR5",
         stock: 4,
-        image: "images/Ram/Crucial Pro DDR5 32GB.jpg"
+        image: "images/ram/Crucial Pro DDR5 32GB.jpg"
     },
 
     {
         id: 60,
-        category: "Ram",
+        category: "ram",
         brand: "Crucial",
         name: "Crucial Basics DDR4 8GB SO-DIMM",
         price: 790,
         spec: "8GB; DDR4; SO-DIMM",
         use: "อัปเกรดโน้ตบุ๊กที่รองรับ",
         stock: 3,
-        image: "images/Ram/Crucial Basics DDR4 8GB SO-DIMM.jpg"
+        image: "images/ram/Crucial Basics DDR4 8GB SO-DIMM.jpg"
     },
 
 
@@ -1254,7 +1254,7 @@ const products = [
         brand: "Anker",
         name: "Anker PowerConf C300",
         price: 3990,
-        spec: "USB-C; 1080p 60fps; AI FRaming",
+        spec: "USB-C; 1080p 60fps; AI Framing",
         use: "ประชุม / ทำงาน",
         stock: 4,
         image: "images/Webcam/Anker PowerConf C300.jpg"
@@ -1364,7 +1364,7 @@ const categories = [
     "Keyboard",
     "Headset",
     "Monitor",
-    "Ram",
+    "ram",
     "SSD",
     "GPU",
     "Microphone",
